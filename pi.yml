@@ -5,5 +5,7 @@
   gather_facts: false
   roles:
     - common
-    # - server
+    - server
     # - seafile
+  vars_files:
+    - vars/secrets.yml
