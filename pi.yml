@@ -1,0 +1,9 @@
+---
+- hosts: pi
+  user: pi
+  sudo: true
+  gather_facts: false
+  roles:
+    - common
+    # - server
+    # - seafile
