@@ -1,1 +1,2 @@
 - include: ddclient.yml tags=ddclient
+- include: nginx.yml tags=nginx
